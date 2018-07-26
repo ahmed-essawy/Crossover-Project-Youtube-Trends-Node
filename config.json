@@ -2,7 +2,7 @@
   "title": "Youtube Trends",
   "youtubeApi": {
     "endpoint": "https://www.googleapis.com/youtube/v3/videos",
-    "key": "AIzaSyDN0_g8dLaBp5hI8UdleGbEEMAQjZlnePU"
+    "key": "AIzaSyBIbv779oqp3ft46tyzaIXismCYB8_y_dU"
   },
   "countryList": [
     {
