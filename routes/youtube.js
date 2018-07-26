@@ -1,6 +1,8 @@
 import express from 'express';
 import * as config from '../config.json';
-import { YoutubeService } from '../services/youtube';
+import {
+  YoutubeService
+} from '../services/youtube';
 
 const router = express.Router();
 const service = new YoutubeService();
