@@ -29,6 +29,7 @@ router.get('/:videoId', async (req, res) => {
   const countryList = countriesService.getCountryList();
   res.render('youtube/player', {
     title: config.title,
+    videoId: req.params.videoId,
     countryList: countryList,
     selectedCountryCode: selectedCountry.code
   });
